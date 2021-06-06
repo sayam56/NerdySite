@@ -258,13 +258,14 @@
 	if ($('.main-slider-carousel').length) {
 		$('.main-slider-carousel').owlCarousel({
 			animateOut: 'fadeOut',
-    		animateIn: 'fadeIn',
-			loop:true,
+    			animateIn: 'fadeIn',
+			loop:false,
+			rewind:true,
 			margin:0,
 			nav:true,
-			autoHeight: true,
+			autoHeight: false,
 			smartSpeed: 500,
-			autoplay: 6000,
+			autoplay: 5000,
 			navText: [ '<span class="flaticon-back"></span>', '<span class="flaticon-arrow-pointing-to-right"></span>' ],
 			responsive:{
 				0:{
@@ -292,12 +293,13 @@
 	if ($('.banner-carousel').length) {
 		$('.banner-carousel').owlCarousel({
 			animateOut: 'fadeOut',
-		    animateIn: 'fadeIn',
-			loop:true,
+		    	animateIn: 'fadeIn',
+			loop:false,
+			rewind:true,
 			margin:0,
 			nav:true,
 			smartSpeed: 700,
-			autoHeight: true,
+			autoHeight: false,
 			autoplay: true,
 			autoplayTimeout:10000,
 			navText: [ '<span class="fa fa-long-arrow-left"></span> prev', 'next<span class="fa fa-long-arrow-right"></span>' ],

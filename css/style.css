@@ -3642,18 +3642,19 @@ img{
 	position:relative;
 	z-index:10;
 	opacity: 0;
-	transform: scaleX(0);
+	/* sayam Note: Main Slider illustration animation */
+	transform: scaleY(0);
 	transform-origin: top;
 	-webkit-transition: all 1000ms ease;
 	-moz-transition: all 100ms ease;
 	-ms-transition: all 1000ms ease;
 	-o-transition: all 1000ms ease;
-	transition: all 1000ms ease;
+	transition: all 1500ms ease;
 }
 
 .banner-section .active .image-column{
 	opacity: 1;
-	transform: scaleX(1);
+	transform: scaleY(1);
 	-webkit-transition-delay: 600ms;
 	-moz-transition-delay: 600ms;
 	-ms-transition-delay: 600ms;
@@ -14616,7 +14617,7 @@ background-color: red;
 .dark-body .main-menu .navigation > li > ul > li > ul,
 .dark-body .main-header .header-top .inner-container{
 	/* note from sayam: DarkBG color would go here */
-	background-color:#2d3049;
+	background-color:#161e29;
 }
 
 .dark-body .shop-item .inner-box{
@@ -14637,7 +14638,9 @@ background-color: red;
 .dark-body .news-block-three .inner-box .lower-content .btn-box:before,
 .dark-body .services-section-four .owl-dots .owl-dot.active,
 .dark-body .services-section-four .owl-dots .owl-dot:hover{
-	background-color:#393d5c;
+
+	/* sayam Note: Pricing Section BG COlor */
+	background-color:#2d3c5062;
 }
 
 .dark-body .news-block-three .inner-box .lower-content .btn-box .btn-box-inner{
@@ -14933,8 +14936,9 @@ background-color: red;
 .dark-body .banner-section-three,
 .dark-body .banner-section .slide,
 .dark-body .banner-section-four .slide{
+	/* sayam Note: Slider BG Here */
 	background-image:none !important;
-	background-color:#2d3049;
+	background-color:#161e29;
 }
 
 .dark-body .team-section-two{
@@ -14964,10 +14968,11 @@ background-color: red;
 .dark-body .main-footer.style-two,
 .dark-body .main-footer.style-three,
 .dark-body .about-section.style-two:before{
-	background: #2d3049;
-	background: -webkit-linear-gradient(to bottom, #2d3049 0%, #363a5a 100%);
-	background: -moz-linear-gradient(to bottom, #2d3049 0%, #363a5a 100%);
-	background: linear-gradient(to bottom, #2d3049 0%, #363a5a 100%);
+	/* sayam Note: Footer */
+	background: #161e29;
+	background: -webkit-linear-gradient(to bottom, #2d3049 0%, #161e29 100%);
+	background: -moz-linear-gradient(to bottom, #2d3049 0%, #161e29 100%);
+	background: linear-gradient(to bottom, #2d3049 0%, #161e29 100%);
 }
 
 .dark-body .service-block-five .inner-box .side-layer-one,
@@ -14992,7 +14997,8 @@ background-color: red;
 	top: 0px;
 	width: 100%;
 	height:100%;
-	display: block;
+	/* testing to fix hero */
+	display: none;
 	background: url(../images/background/1.jpg);
 }
 
