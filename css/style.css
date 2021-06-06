@@ -14576,6 +14576,7 @@ background-color: red;
 .dark-body .main-menu .navigation > li > ul,
 .dark-body .main-menu .navigation > li > ul > li > ul,
 .dark-body .main-header .header-top .inner-container{
+	/* note from sayam: DarkBG color would go here */
 	background-color:#2d3049;
 }
 
