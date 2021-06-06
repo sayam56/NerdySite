@@ -3825,6 +3825,45 @@ img{
 	background-color:#ffffff;
 }
 
+/* sayam added css */
+
+
+.banner-section .social-box{
+	display: inline-block;
+	position:absolute;
+	left:3%;
+	top:25%;
+	z-index:10;
+}
+
+.banner-section .social-box li{
+	position:relative;
+	margin-bottom:10px;
+}
+
+.banner-section .social-box li a{
+	position:relative;
+	width:50px;
+	height:50px;
+	color:#ffffff;
+	font-size:18px;
+	line-height:50px;
+	text-align:center;
+	border-radius:50px;
+	display:inline-block;
+	-webkit-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	transition:all 300ms ease;
+}
+
+.banner-section .social-box li a:hover{
+	color:#ffffff;
+	background-color:#eb3667;
+}
+
+
 /*** 
 
 ====================================================================

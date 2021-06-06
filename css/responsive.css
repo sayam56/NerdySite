@@ -2,6 +2,11 @@
 
 @media only screen and (max-width: 1340px){
 
+	
+.banner-section .social-box{
+	display: none;
+}
+
 	.page-wrapper{
 		overflow:hidden;	
 	}
