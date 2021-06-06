@@ -3473,6 +3473,7 @@ img{
 .banner-section{
 	position:relative;
 	overflow:hidden;
+	/* overflow-y: visible; */
 }
 
 .banner-section .slide{
@@ -16018,3 +16019,9 @@ background-color: red;
 .color-palate{
 	display:none;
 }
+
+/* .banner-section{
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+} */
