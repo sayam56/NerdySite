@@ -1339,6 +1339,9 @@ img{
 	position:relative;
 	padding:0px 40px;
 }
+.responsiveLogo{
+	display: none;
+}
 
 .main-header .main-box .logo-box{
 	position:relative;
