@@ -14937,7 +14937,7 @@ background-color: red;
 .dark-body .banner-section .slide,
 .dark-body .banner-section-four .slide{
 	/* sayam Note: Slider BG Here */
-	background-image:none !important;
+	/* background-image:none !important; */
 	background-color:#161e29;
 }
 
