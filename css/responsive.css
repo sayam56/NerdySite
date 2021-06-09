@@ -709,6 +709,13 @@
 
 @media only screen and (max-width: 767px){
 
+	.flaticonMenuSticky{
+		display: block;
+	}
+	.flaticonSearchIcon{
+		display: none;
+	}
+
 	.responsiveLogo{
 		display: none;
 	}
