@@ -5774,11 +5774,12 @@ img{
 }
 
 .main-footer .pattern-layer-two{
+	/* main footer bottom wave */
 	position:absolute;
-	left:0px;
-	bottom:0px;
-	width:163px;
-	height:155px;
+	bottom: 0;
+	width:1900px;
+	height:300px;
+	opacity: 0.2;
 	background-repeat:no-repeat;
 }
 
@@ -14969,10 +14970,10 @@ background-color: red;
 .dark-body .main-footer.style-three,
 .dark-body .about-section.style-two:before{
 	/* sayam Note: Footer */
-	background: #161e29;
-	background: -webkit-linear-gradient(to bottom, #2d3049 0%, #161e29 100%);
+	background: #161e29; 
+	/* background: -webkit-linear-gradient(to bottom, #2d3049 0%, #161e29 100%);
 	background: -moz-linear-gradient(to bottom, #2d3049 0%, #161e29 100%);
-	background: linear-gradient(to bottom, #2d3049 0%, #161e29 100%);
+	background: linear-gradient(to bottom, #2d3049 0%, #161e29 100%); */
 }
 
 .dark-body .service-block-five .inner-box .side-layer-one,
@@ -14982,6 +14983,7 @@ background-color: red;
 .dark-body .team-block-two .inner-box:before{
 	background-color:#363a5a;
 }
+
 
 /*Boxed Layout Style*/
 
@@ -16071,3 +16073,7 @@ background-color: red;
 	width: 100vw;
 	overflow: hidden;
 } */
+
+.customWave{
+	opacity: 1;
+}

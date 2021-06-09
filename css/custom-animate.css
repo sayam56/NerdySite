@@ -373,8 +373,9 @@
 
 .banner-section-three .icon-layer-one,
 .services-section-four .owl-carousel .owl-stage-outer .owl-item.center .service-block-four .inner-box .icon-one,
-.service-block-two .inner-box:hover .icon-one,
-.main-footer .pattern-layer-two{
+.service-block-two .inner-box:hover .icon-one{
+  /* sAYAM nOTE: footer animation */
+  /* .main-footer .pattern-layer-two{ */
     animation-name: float_left_right; 
     animation-duration: 30s; 
     animation-iteration-count: infinite;
