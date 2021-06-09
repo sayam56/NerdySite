@@ -136,7 +136,7 @@
 	float:right;
 	border-radius:50px;
 	padding:0px 15px 0px 40px;
-	background-color:rgba(45, 98, 114, 0.4);;
+	background-color:rgba(45, 98, 114, 0.4);
 }
 
 .main-header .header-upper .logo-box{
@@ -497,7 +497,7 @@
 .sticky-header .nav-outer .options-box{
 	margin-top:45px;
 }
-
+/* ----------------------------------------------------------- */
 /*Sticky Header*/
 
 .sticky-header{
@@ -1188,7 +1188,7 @@
 
 .header-style-one .sticky-header .main-menu .navigation > li:hover > a,
 .header-style-one .sticky-header .main-menu .navigation > li.current > a{
-	color:#1519b2;
+	/* color:#1519b2; */
 }
 
 .header-style-one .sticky-header .main-menu .navigation > li > a::before{

@@ -13292,7 +13292,7 @@ background-color: red;
 }
 
 .dark-body .main-header .sticky-header{
-	background-color:#22253c;
+	background-color:#161e29;
 }
 
 .dark-body .steps-section{
@@ -14442,4 +14442,12 @@ background-color: red;
 
 .customWave{
 	opacity: 1;
+}
+
+.flaticonMenuSticky
+{
+	color: white;
+}
+.flaticonMenuHover:hover{
+	color: #85C6AD;
 }
