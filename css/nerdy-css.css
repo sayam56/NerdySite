@@ -1,18 +1,5 @@
 
-/* sayam Custom CSS */
 
-.customWave{
-	opacity: 1;
-}
-
-.flaticonMenuSticky
-{	
-	display: none;
-	color: white;
-}
-.flaticonMenuHover:hover{
-	color: #85C6AD;
-}
 
 .service-block-five .inner-box .social-boxed:hover .social-inner{
 	width:100%;
@@ -24,9 +11,9 @@
 	position:relative;
 	color: #ffffff;
     font-size: 16px;
-    border-radius: 7px;
+    border-radius: 10px;
     display: inline-block;
-    padding:8px 25px 15px;
+    padding:3px 17px 15px;
 	width:20%;
 	max-width:65%;
 	height:30px;
@@ -45,7 +32,7 @@
 .service-block-five .inner-box .social-boxed .social-inner a{
 	position:relative;
 	color:#ffffff;
-	margin:-3px 8px 0px;
+	margin:0px 8px 0px;
 	font-size:16px;
 	float:left;
 }

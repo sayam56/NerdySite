@@ -716,8 +716,9 @@
 @media only screen and (max-width: 767px){
 
 	.flaticonMenuSticky{
-		display: block;
+		display: inline-block;
 	}
+
 	.flaticonSearchIcon{
 		display: none;
 	}

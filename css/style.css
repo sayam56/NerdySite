@@ -14007,3 +14007,18 @@ background-color: red;
 	width: 100vw;
 	overflow: hidden;
 } */
+
+/* sayam Custom CSS */
+
+.customWave{
+	opacity: 1;
+}
+
+.flaticonMenuSticky
+{	
+	display: none;
+	color: white;
+}
+.flaticonMenuHover:hover{
+	color: #85C6AD;
+}
