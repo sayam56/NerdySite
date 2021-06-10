@@ -12644,6 +12644,7 @@ background-color: red;
 .dark-body .service-block-five .inner-box,
 .dark-body .banner-section-five .social-box,
 .dark-body .header-style-two .nav-outer:before{
+	/* sayam Note: Card color */
 	background-color:#2b5262;
 }
 
@@ -12906,7 +12907,11 @@ background-color: red;
 }
 
 .dark-body .service-block-five .inner-box .side-layer-one,
-.dark-body .service-block-five .inner-box .side-layer-two,
+.dark-body .service-block-five .inner-box .side-layer-two{
+	/* sayam Note: service Card hoverItem color */
+	background: linear-gradient(to bottom, #85c6ad 0%, #2d6272 100%);
+}
+
 .dark-body .footer-style-two .footer-bottom,
 .dark-body .banner-section-five .content-column .inner-column:before,
 .dark-body .team-block-two .inner-box:before{
@@ -14002,17 +14007,3 @@ background-color: red;
 	width: 100vw;
 	overflow: hidden;
 } */
-
-.customWave{
-	opacity: 1;
-}
-
-.flaticonMenuSticky
-{	
-	display: none;
-	color: white;
-}
-.flaticonMenuHover:hover{
-	color: #85C6AD;
-}
-

@@ -1,0 +1,65 @@
+
+/* sayam Custom CSS */
+
+.customWave{
+	opacity: 1;
+}
+
+.flaticonMenuSticky
+{	
+	display: none;
+	color: white;
+}
+.flaticonMenuHover:hover{
+	color: #85C6AD;
+}
+
+.service-block-five .inner-box .social-boxed:hover .social-inner{
+	width:100%;
+}
+
+.service-block-five .inner-box .social-boxed .social-inner{
+     margin-top: 25px;
+     margin-bottom: -25px;
+	position:relative;
+	color: #ffffff;
+    font-size: 16px;
+    border-radius: 7px;
+    display: inline-block;
+    padding:8px 25px 15px;
+	width:20%;
+	max-width:65%;
+	height:30px;
+	overflow:hidden;
+    background: #6917B4;
+	background: -webkit-linear-gradient(to right, #6917B4 0%, #d54be1 100%);
+	background: -moz-linear-gradient(to right, #6917B4 0%, #d54be1 100%);
+	background: linear-gradient(to right, #6917B4 0%, #d54be1 100%);
+	transition: all 1000ms ease;
+    -moz-transition: all 1000ms ease;
+    -webkit-transition: all 1000ms ease;
+    -ms-transition: all 1000ms ease;
+    -o-transition: all 1000ms ease;
+}
+
+.service-block-five .inner-box .social-boxed .social-inner a{
+	position:relative;
+	color:#ffffff;
+	margin:-3px 8px 0px;
+	font-size:16px;
+	float:left;
+}
+
+
+.service-block-five .inner-box .social-boxed .social-inner .share-now{
+	position:relative;
+	margin-right:8px;
+	margin-bottom:4px;
+	float:left;
+	transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+
