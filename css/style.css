@@ -12543,12 +12543,11 @@ background-color: red;
 
 .dark-body,
 .dark-body .clients-section.style-two,
-.dark-body .main-menu .navigation > li > ul,
-.dark-body .main-menu .navigation > li > ul > li > ul,
 .dark-body .main-header .header-top .inner-container{
 	/* note from sayam: DarkBG color would go here */
 	background-color:#161e29;
 }
+
 
 .dark-body .shop-item .inner-box{
 	outline-color:#2d3049;
