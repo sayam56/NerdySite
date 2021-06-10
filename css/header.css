@@ -147,6 +147,9 @@
 
 .main-header .header-upper .logo-box .logo{
 	position:relative;
+	height: 125px;
+	width: 125px;
+	margin-top: -25px;
 }
 
 .main-header .outer-box{

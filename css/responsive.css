@@ -222,7 +222,13 @@
 	}
 
 	.responsiveLogo{
-		display: inline-block;
+		display: inline-block;	
+	}
+
+	.responsiveLogo img{
+		margin: 10px 0px auto 0px;
+		height: 60px;
+		width: 60px;
 	}
 	
 	.main-header .main-box .logo-box {
@@ -1222,6 +1228,12 @@
 	.flaticon-multiply :hover{
 		color: #85C6AD;
 	}
+
+	.navigation{
+		padding-left: 0px;
+		margin-left: 0px;
+	}
+
 	
 }
 
