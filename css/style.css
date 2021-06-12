@@ -2924,11 +2924,12 @@ img{
 }
 
 .counter-section.style-two .inner-container{
+	/* sayam note: counter section color */
 	z-index:1;
 	background: #151ab2;
-	background: -webkit-linear-gradient(to right, #151ab2 0%, #4c68e2 100%);
-	background: -moz-linear-gradient(to right, #151ab2 0%, #4c68e2 100%);
-	background: linear-gradient(to right, #151ab2 0%, #4c68e2 100%);
+	background: -webkit-linear-gradient(to right, #191fb5 0%, #4a65e0 100%);
+	background: -moz-linear-gradient(to right, #191fb5 0%, #4a65e0 100%);
+	background: linear-gradient(to right, #191fb5 0%, #4a65e0 100%);
 }
 
 .call-to-action-section .title-column .inner-column{
@@ -4144,6 +4145,7 @@ img{
 ***/
 
 .services-section-three{
+	margin-top: 60px;
 	position:relative;
 	padding:60px 0px 60px;
 }
@@ -6379,8 +6381,9 @@ background-color: red;
 ***/
 
 .services-section-five{
+	/* margin-top: 50px; */
 	position:relative;
-	padding:0px 0px 60px;
+	padding:60px 0px 60px;
 }
 
 .services-section-five .owl-carousel .owl-stage-outer{
@@ -6427,6 +6430,9 @@ background-color: red;
 	width:30px;
 	background-color:#222222;
 }
+.services-section-five .owl-dots .owl-dot.active{
+	background-color:whitesmoke;
+}
 
 .service-block-five{
 	position:relative;
@@ -6441,6 +6447,25 @@ background-color: red;
 	overflow:hidden;
 	padding:60px 40px 60px;
 	box-shadow:0px 0px 20px rgba(0,0,0,0.15);
+	transition:all 0.6s ease;
+	-moz-transition:all 0.6s ease;
+	-webkit-transition:all 0.6s ease;
+	-ms-transition:all 0.6s ease;
+	-o-transition:all 0.6s ease;
+}
+
+.service-block-five .inner-box:hover{
+	/* sayam note: services card hover */
+	margin-top: -40px;
+	padding:90px 40px 90px;
+	margin-bottom: -40px;
+	transition:all 0.6s ease;
+	-moz-transition:all 0.6s ease;
+	-webkit-transition:all 0.6s ease;
+	-ms-transition:all 0.6s ease;
+	-o-transition:all 0.6s ease;
+
+
 }
 
 .service-block-five .inner-box .side-layer-one{
@@ -6565,6 +6590,8 @@ background-color: red;
 	font-size:16px;
 	line-height:1.8em;
 	margin-top:20px;
+	max-width: 290px;
+	max-height: 85px;
 }
 
 .service-block-five .inner-box .learn-more{
@@ -12563,11 +12590,13 @@ background-color: red;
 	background-color:#393d5c;
 }
 
+/* sayam note: change the section separator colors here */
+
 .dark-body .clients-section,
 .dark-body .pricing-section,
 .dark-body .team-section:before,
 .dark-body .counter-section:before,
-.dark-body .services-section-two:before,
+.dark-body .services-section-three,
 .dark-body .call-to-action-section,
 .dark-body .testimonial-block-two .inner-box,
 .dark-body .news-block-three .inner-box .lower-content .btn-box:before,
@@ -12575,7 +12604,7 @@ background-color: red;
 .dark-body .services-section-four .owl-dots .owl-dot:hover{
 
 	/* sayam Note: Pricing Section BG COlor */
-	background-color:#2d3c5062;
+	background-color:#3c4a611f;
 }
 
 .dark-body .news-block-three .inner-box .lower-content .btn-box .btn-box-inner{
@@ -12644,14 +12673,21 @@ background-color: red;
 .dark-body .news-block-two .inner-box,
 .dark-body .help-widget .widget-content,
 .dark-body .team-block .inner-box .lower-content,
-.dark-body .testimonial-block .inner-box:before,
 .dark-body .service-block .inner-box,
 .dark-body .testimonial-block-three .inner-box,
 .dark-body .service-block-five .inner-box,
 .dark-body .banner-section-five .social-box,
 .dark-body .header-style-two .nav-outer:before{
 	/* sayam Note: Card bg color */
-	background-color:#202445;
+	background-color:#20244594;
+}
+.dark-body .service-block-three .inner-box{
+	box-shadow:0px 0px 20px rgba(0, 0, 0, 0.11);
+}
+
+.dark-body .testimonial-block .inner-box:before{
+	/* fatema color */
+	background-color: #364a61;
 }
 
 .dark-body .authors-box .name,

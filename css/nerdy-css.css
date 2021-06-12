@@ -1,8 +1,5 @@
-
-
-
 .service-block-five .inner-box .social-boxed:hover .social-inner{
-	width:100%;
+	width:60%;
 }
 
 .service-block-five .inner-box .social-boxed .social-inner{
@@ -14,7 +11,7 @@
 	border-radius: 10px;
 	display: inline-block;
 	padding:3px 17px 15px;
-	width:20%;
+	width:16%;
 	max-width:65%;
 	height:30px;
 	overflow:hidden;
@@ -22,7 +19,7 @@
 	background: -webkit-linear-gradient(to right, #6917B4 0%, #d54be1 100%);
 	background: -moz-linear-gradient(to right, #6917B4 0%, #d54be1 100%);
 	background: linear-gradient(to right, #6917B4 0%, #d54be1 100%);
-	transition: all 1000ms ease;
+	transition: all 800ms ease;
     -moz-transition: all 1000ms ease;
     -webkit-transition: all 1000ms ease;
     -ms-transition: all 1000ms ease;
