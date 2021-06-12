@@ -542,7 +542,7 @@ img{
 	font-size: 16px;
 	line-height: 30px;
 	color: #ffffff;
-	padding: 13px 40px 13px;
+	padding: 13px 37px;
 	font-weight: 400;
 	overflow: hidden;
 	background:none;
@@ -565,8 +565,8 @@ img{
     -moz-transition: all 0.4s;
     -o-transition: all 0.4s;
     transition: all 0.4s;
-    -webkit-transform: scale(0.2, 1);
-    transform: scale(0.2, 1);
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
     background: #b352e5;
     background: -webkit-linear-gradient(to left, #b352e5 0%, #542fbc 100%);
     background: -moz-linear-gradient(to left, #b352e5 0%, #542fbc 100%);
@@ -585,9 +585,8 @@ img{
 }
 
 .btn-style-four:hover{
-	padding: 13px 40px 13px;
 	color: #ffffff;
-	border:2px solid #552fbc7c;
+	border:2px solid #542fbc;
 }
 
 /* Btn Style Five */
@@ -707,7 +706,7 @@ img{
 	font-size: 16px;
 	line-height: 30px;
 	color: #ffffff;
-	padding: 15px 51px;
+	padding: 14px 44px;
 	font-weight: 400;
 	overflow: hidden;
 	border-radius: 5px;
@@ -729,7 +728,7 @@ img{
 	height:100%;
     z-index: 1;
     opacity: 1;
-    background: linear-gradient(to right, #ff0300 0%, #ff8f00 100%);
+    background: linear-gradient(to right, #ec3d66 0%, #fa7d58 100%);
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     -o-transition: all 0.4s;
@@ -1981,7 +1980,11 @@ img{
 
 .banner-section .owl-nav .owl-prev:hover,
 .banner-section .owl-nav .owl-next:hover{
-	color:#e82a6a;
+	/* sayam Note: slider arrow color 
+	purple: 5c39b8
+	pink: ec3d66
+	*/
+	color:#ec3d66;
 	border-color:#ffffff;
 	background-color:#ffffff;
 }
@@ -2020,8 +2023,9 @@ img{
 }
 
 .banner-section .social-box li a:hover{
+	/* sayam note: social box hover */
 	color:#ffffff;
-	background-color:#eb3667;
+	background-color: #ec3d66;
 }
 
 
@@ -6430,6 +6434,7 @@ background-color: red;
 }
 
 .service-block-five .inner-box{
+	/* sayam note: services card */
 	position:relative;
 	text-align:center;
 	border-radius:8px;
@@ -6445,7 +6450,7 @@ background-color: red;
 	width:290px;
 	height:290px;
 	border-radius:50%;
-	background-color:#f5f5f5;
+	background-color:#3a4283;
 	transform:translateX(320px) translateY(-320px);
 	-webkit-transition:all 600ms ease;
 	-ms-transition:all 600ms ease;
@@ -6462,7 +6467,7 @@ background-color: red;
 	height:370px;
 	opacity:0.5;
 	border-radius:50%;
-	background-color:#f5f5f5;
+	background-color:#283074;
 	transform:translateX(400px) translateY(-400px);
 	-webkit-transition:all 600ms ease;
 	-ms-transition:all 600ms ease;
@@ -6501,13 +6506,14 @@ background-color: red;
 }
 
 .service-block-five .inner-box .icon-box .border-layer{
+	/* sayam note: orbit dotted path */
 	position:absolute;
 	left:0px;
 	top:0px;
 	right:0px;
 	bottom:0px;
 	border-radius:50%;
-	border:1px dashed #0072bc;
+	border:1px dashed white;
 }
 
 .service-block-five .inner-box .icon-box .dott-layer{
@@ -12644,8 +12650,8 @@ background-color: red;
 .dark-body .service-block-five .inner-box,
 .dark-body .banner-section-five .social-box,
 .dark-body .header-style-two .nav-outer:before{
-	/* sayam Note: Card color */
-	background-color:#2b5262;
+	/* sayam Note: Card bg color */
+	background-color:#202445;
 }
 
 .dark-body .authors-box .name,
@@ -12909,7 +12915,7 @@ background-color: red;
 .dark-body .service-block-five .inner-box .side-layer-one,
 .dark-body .service-block-five .inner-box .side-layer-two{
 	/* sayam Note: service Card hoverItem color */
-	background: linear-gradient(to bottom, #85c6ad 0%, #2d6272 100%);
+	background: linear-gradient(to bottom, #3a4283 0%, #283074 100%);
 }
 
 .dark-body .footer-style-two .footer-bottom,
