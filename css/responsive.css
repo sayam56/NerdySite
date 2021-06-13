@@ -1825,6 +1825,30 @@
 		width:57%;
 	}
 }
+
+/* footer */
+
+@media only screen and (max-width: 1023px){
+	.footerFirstCol .logo{
+		display: inline-block;
+	}
+}
+
+@media only screen and (max-width: 992px){
+	.footerFirstCol{
+		display: inline-block;
+		margin-right: -50px;
+	}
+
+	.footerSpacing{
+		margin-right: 0px;
+	}
+}
+
+
+
+
+
 /* .service-block-five .inner-box .text {
 	position: relative;
 	color: #555555;
