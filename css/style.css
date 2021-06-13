@@ -1025,10 +1025,10 @@ img{
     z-index: 99999999999;
     text-align: center;
     overflow: hidden;
-	background: #295df1;
-	background: -webkit-linear-gradient(to right, #295df1 0%, #4487f2 100%);
-	background: -moz-linear-gradient(to right, #295df1 0%, #4487f2 100%);
-	background: linear-gradient(to right, #295df1 0%, #4487f2 100%);
+    background: linear-gradient(to bottom right, #2d6272, #85c6ad);;
+    background: -webkit-linear-gradient(to right, #2d6272 0%, #85c6ad 100%);
+    background: -moz-linear-gradient(to right, #2d6272 0%, #85c6ad 100%);
+    background: linear-gradient(to bottom right, #2d6272 0%, #85c6ad 100%);
 }
 
 .preloader .box{
