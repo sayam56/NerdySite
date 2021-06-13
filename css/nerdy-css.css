@@ -19,11 +19,11 @@
 	background: -webkit-linear-gradient(to right, #6917B4 0%, #d54be1 100%);
 	background: -moz-linear-gradient(to right, #6917B4 0%, #d54be1 100%);
 	background: linear-gradient(to right, #6917B4 0%, #d54be1 100%);
-	transition: all 800ms ease;
-    -moz-transition: all 1000ms ease;
-    -webkit-transition: all 1000ms ease;
-    -ms-transition: all 1000ms ease;
-    -o-transition: all 1000ms ease;
+	transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
 }
 
 .service-block-five .inner-box .social-boxed .social-inner a{
@@ -47,3 +47,17 @@
     -o-transition: all 500ms ease;
 }
 
+/* footer */
+.footerFirstCol{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footerFirstCol .text{
+	text-transform: uppercase;
+}
+
+.footerSpacing{
+	margin-right: -80px;
+}
