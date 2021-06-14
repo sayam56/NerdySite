@@ -3518,8 +3518,8 @@ img{
 	position:absolute;
 	left:-40px;
 	top:-150px;
-	width:342px;
-	height:281px;
+	width:347px;
+	height:286px;
 	background-repeat:no-repeat;
 }
 
@@ -6474,7 +6474,7 @@ background-color: red;
 }
 
 .service-block-five .inner-box:hover .serviceCardTitle:hover{
-	color: #85C6AD;
+	color: #01b5f8;
 }
 
 .service-block-five .inner-box .side-layer-one{
@@ -6562,6 +6562,7 @@ background-color: red;
 }
 
 .service-block-five .inner-box .icon-box .dott-layer:before{
+	/* sayam note: service section gollu ball */
 	position:absolute;
 	content:'';
 	left:0px;
@@ -6569,7 +6570,7 @@ background-color: red;
 	width:20px;
 	height:20px;
 	border-radius:50px;
-	background-color:#ff4200;
+	background-color:#d52fe0;
 }
 
 .service-block-five .inner-box h5{
