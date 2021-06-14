@@ -12657,7 +12657,8 @@ background-color: red;
 .dark-body .contact-form .form-group input[type="tel"],
 .dark-body .contact-form .form-group input[type="email"],
 .dark-body .contact-form .form-group textarea{
-	background-color:#393d5c;
+	/* sayam Note: contact Form bg color */
+	background-color:#3c4a6134;
 	color:#ffffff;
 	border-color:rgba(255,255,255,0.10);
 }
