@@ -77,4 +77,16 @@
 	margin-top: 15px;
 }
 
+.svgInstaIconFooter{
+	fill: white;
+}
+
+.svgInstaIconFooter:hover{
+	fill: #01b5f8;
+}
+.svgInstaIconFooter svg{
+	margin-bottom: -2px;
+}
+
+
 

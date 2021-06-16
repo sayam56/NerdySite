@@ -253,7 +253,7 @@ img{
 .back-to-top::after {
   bottom: 0;
   z-index: 5;
-  border-bottom: 20px solid #ff0700;
+  border-bottom: 20px solid #01b5f8;
 }
 
 .back-to-top:hover, .back-to-top:focus {
