@@ -62,7 +62,19 @@
 	margin-right: -80px;
 }
 
+/* why choose us */
 .whyUsIcon{
 	width: 54px;
 	height: 54px;
 }
+
+/* banner section */
+.svgInstaIcon {
+	display: flex;
+	fill: white;
+}
+.svgInstaIcon svg{
+	margin-top: 15px;
+}
+
+
