@@ -10109,7 +10109,26 @@ background-color: red;
 	padding-left:120px;
 	min-height:90px;
 }
+/* Hera Note: Contact icon change css start */
+.info-box .icon-flex{
+	display: flex;
+	margin-left: -120px;
+}
+.info-box .icon-flex .icon-box{
+	height: 90px;
+	width:90px;
+	border-radius: 50%;
+	background-color:white;
+	align-items:center;
+   justify-content:center;
+   display: flex;
+   margin-right: 30px;
+}
+.info-box .icon-flex .icon-d{
+	margin-top: 20px;
+}
 
+/* Hera Note: Contact icon change css start */
 .contact-info-section .info-box .box-inner a{
 	position:relative;
 	color:#111111;
