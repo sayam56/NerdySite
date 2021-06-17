@@ -4388,16 +4388,19 @@ background-color: red;
 }
 
 .counter-section-two .inner-container:before{
+	/* sayam Note: Who are we section BG */
 	position:absolute;
 	content:'';
 	right:0px;
 	top:0px;
 	width:150%;
 	height:100%;
-	background:url(../images/background/pattern-7.png) right top no-repeat;
+	/* background:url(../images/background/pattern-7.png) right top no-repeat; */
+	/* border: 1px solid red; */
 }
 
 .counter-section-two .inner-container{
+	margin-top: -50px;
 	position:relative;
 	padding:110px 40px 80px;
 }
@@ -6294,7 +6297,7 @@ background-color: red;
 
 .mission-section{
 	position:relative;
-	margin-top:-80px;
+	margin-top:-50px;
 	padding:0px 0px 60px;
 }
 
