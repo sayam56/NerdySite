@@ -7405,6 +7405,7 @@ background-color: red;
 	background-repeat:no-repeat;
 	background-position:center bottom;
 	background-size:cover;
+	opacity: 0.85;
 }
 
 .page-title .pattern-layer-one{
