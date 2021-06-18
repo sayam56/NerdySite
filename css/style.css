@@ -6945,6 +6945,9 @@ background-color: red;
 
 /* Skills Section */
 
+
+/* sayam Note: about us skills bar sections */
+
 .skills .skill-item{
 	position:relative;
 	margin-bottom:30px;
@@ -6972,19 +6975,49 @@ background-color: red;
 	background-color:#eeeeee;
 }
 
-.skills .skill-item .skill-bar .bar-inner .bar{
+.skills .skill-item .skill-bar .bar-inner .bar-pink{
 	position:absolute;
 	left:0px;
 	top:0px;
 	height:5px;
 	width:0px;
-	border-bottom:5px solid #23448c;
+	border-bottom:5px solid #fc83c5;
 	-webkit-transition:all 2000ms ease;
 	-ms-transition:all 2000ms ease;
 	-o-transition:all 2000ms ease;
 	-moz-transition:all 2000ms ease;
 	transition:all 2000ms ease;
 }
+
+
+.skills .skill-item .skill-bar .bar-inner .bar-yellow{
+	position:absolute;
+	left:0px;
+	top:0px;
+	height:5px;
+	width:0px;
+	border-bottom:5px solid #ffc64c;
+	-webkit-transition:all 2000ms ease;
+	-ms-transition:all 2000ms ease;
+	-o-transition:all 2000ms ease;
+	-moz-transition:all 2000ms ease;
+	transition:all 2000ms ease;
+}
+.skills .skill-item .skill-bar .bar-inner .bar-blue{
+
+	position:absolute;
+	left:0px;
+	top:0px;
+	height:5px;
+	width:0px;
+	border-bottom:5px solid #83d0fc;
+	-webkit-transition:all 2000ms ease;
+	-ms-transition:all 2000ms ease;
+	-o-transition:all 2000ms ease;
+	-moz-transition:all 2000ms ease;
+	transition:all 2000ms ease;
+}
+
 
 .skills .skill-item .skill-header{
 	position:relative;
@@ -7450,8 +7483,8 @@ background-color: red;
 	position:absolute;
 	right:8%;
 	bottom:28%;
-	width:50px;
-	height:50px;
+	width:55px;
+	height:55px;
 	background-repeat:no-repeat;
 }
 
@@ -10118,16 +10151,21 @@ background-color: red;
 	display: flex;
 	margin-left: -120px;
 }
+
+/* IconBoxFix */
+
 .info-box .icon-flex .icon-box{
 	height: 90px;
 	width:90px;
 	border-radius: 50%;
-	background-color:#1A2330;
+	background-color:#1a2330;
 	align-items:center;
-   justify-content:center;
-   display: flex;
-   margin-right: 30px;
+	justify-content:center;
+	display: flex;
+	margin-right: 30px;
 }
+
+
 .info-box .icon-flex .icon-d{
 	margin-top: 20px;
 }
@@ -10225,6 +10263,7 @@ background-color: red;
 .contact-info-section .map-boxed{
 	position:relative;
 	margin-top:60px;
+	width: 99vw;
 }
 
 .contact-form-section{
@@ -12939,7 +12978,7 @@ background-color: red;
 
 .dark-body .steps-section{
 	background-image:none !important;
-	background-color:#22253c;
+	background-color:#1A2330;
 }
 
 .dark-body .banner-section-three,
