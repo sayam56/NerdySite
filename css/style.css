@@ -7450,8 +7450,8 @@ background-color: red;
 	position:absolute;
 	right:8%;
 	bottom:28%;
-	width:50px;
-	height:50px;
+	width:55px;
+	height:55px;
 	background-repeat:no-repeat;
 }
 
@@ -10118,16 +10118,21 @@ background-color: red;
 	display: flex;
 	margin-left: -120px;
 }
+
+/* IconBoxFix */
+
 .info-box .icon-flex .icon-box{
 	height: 90px;
 	width:90px;
 	border-radius: 50%;
-	background-color:#1A2330;
+	background-color:#1a2330;
 	align-items:center;
-   justify-content:center;
-   display: flex;
-   margin-right: 30px;
+	justify-content:center;
+	display: flex;
+	margin-right: 30px;
 }
+
+
 .info-box .icon-flex .icon-d{
 	margin-top: 20px;
 }
@@ -10225,6 +10230,7 @@ background-color: red;
 .contact-info-section .map-boxed{
 	position:relative;
 	margin-top:60px;
+	width: 99vw;
 }
 
 .contact-form-section{
