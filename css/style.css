@@ -10122,7 +10122,7 @@ background-color: red;
 	height: 90px;
 	width:90px;
 	border-radius: 50%;
-	background-color:white;
+	background-color:#1A2330;
 	align-items:center;
    justify-content:center;
    display: flex;
@@ -10205,19 +10205,19 @@ background-color: red;
 	border-radius:0px;
 	background-color:#fe4c1c;
 }
-
+/* Hera Note: cahnge the contact icon */
 .contact-info-section .social-box li.facebook a{
-	background-color:#4661c5;
+	background-color:#161e29
 }
 
 .contact-info-section .social-box li.twitter a{
-	background-color:#44b1e4;
+	background-color:#161e29
 }
 
 .contact-info-section .social-box li.linkedin a{
-	background-color:#ff2e2e;
+	background-color:#161e29
 }
-
+/* Hera note: change the contact icon end */
 .contact-info-section .social-box li.pinterest a{
 	background-color:#0073b0;
 }
