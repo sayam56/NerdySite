@@ -3415,7 +3415,7 @@ img{
 	border-radius:10px;
 	margin-top:-60px;
 	background-color:#ffffff;
-	box-shadow:0px 0px 15px rgba(0,0,0,0.10);
+	box-shadow:0px 0px 15px rgba(0, 0, 0, 0.1);
 }
 
 .team-block .inner-box .lower-content:before{
@@ -3433,9 +3433,11 @@ img{
 	-webkit-transition:all 600ms ease;
 	-ms-transition:all 600ms ease;
 	-o-transition:all 600ms ease;
-	background: -webkit-linear-gradient(to right, #EA3368 0%, #fd8b56 100%);
-	background: -moz-linear-gradient(to right, #EA3368 0%, #fd8b56 100%);
-	background: linear-gradient(to right, #EA3368 0%, #fd8b56 100%);
+	/* Hera Note: change team bottom name box hover color  */
+	background: -webkit-linear-gradient(to right, #85c6ad 0%, #41cc97 100%);
+	background: -moz-linear-gradient(to right, #85c6ad 0%, #41cc97 100%);
+	background: linear-gradient(to right, #85c6ad 0%, #41cc97 100%);
+	/* Hera Note: change team bottom name box hover color  */
 }
 
 .team-block .inner-box:hover .lower-content:before{
@@ -8379,9 +8381,11 @@ background-color: red;
 	z-index:-1;
 	border-radius:4px;
 	background: #DB4DE5;
-	background: -webkit-linear-gradient(to bottom, #DB4DE5 0%, #781eb9 100%);
-	background: -moz-linear-gradient(to bottom, #DB4DE5 0%, #781eb9 100%);
-	background: linear-gradient(to bottom, #DB4DE5 0%, #781eb9 100%);
+	/* Hera Note: change the service list box color in every service page */
+	background: -webkit-linear-gradient(to bottom, #85c09e 0%, #61cf8f 100%);
+	background: -moz-linear-gradient(to bottom,#85c09e 0%, #61cf8f 100%);
+	background: linear-gradient(to bottom, #85c09e 0%, #61cf8f 100%);
+	/* Hera Note: change the service list box color in every service page */
 	transition:all 300ms ease;
 	-webkit-transition:all 300ms ease;
 	-ms-transition:all 300ms ease;
@@ -8559,7 +8563,7 @@ background-color: red;
 .service-detail .inner-box .lower-content h3{
 	position:relative;
 	font-weight:600;
-	color:#7b1fba;
+	color:#85c6ad;
 	line-height:1.3em;
 	margin-bottom:20px;
 }
