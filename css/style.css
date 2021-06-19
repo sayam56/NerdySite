@@ -8459,7 +8459,25 @@ background-color: red;
 	font-weight:600;
 	margin-bottom:15px;
 }
-
+/* Hera Note: add see more button */
+.help-widget .widget-content .see-work-wrap .see-work{
+	height: 30px;
+	width: 150px;
+	background: -webkit-linear-gradient(to right, #6917B4 0%, #d54be1 100%);
+    background: -moz-linear-gradient(to right, #6917B4 0%, #d54be1 100%);
+    background: linear-gradient(to right, #6917B4 0%, #d54be1 100%);
+	color:white;
+	display:flex;
+	border-radius: 10px;
+	text-align:center;
+	justify-content: center;
+	font-size:16px;
+	padding-top:3px;
+}
+.help-widget .widget-content .see-work-wrap .see-work .see-arrow{
+	margin-right:10px;
+}
+/* Hera Note: add see more button */
 .help-widget .widget-content .text{
 	position:relative;
 	color:#5a5a5a;
