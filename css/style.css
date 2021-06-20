@@ -8382,9 +8382,9 @@ background-color: red;
 	border-radius:4px;
 	background: #DB4DE5;
 	/* Hera Note: change the service list box color in every service page */
-	background: -webkit-linear-gradient(to bottom, #85c09e 0%, #61cf8f 100%);
-	background: -moz-linear-gradient(to bottom,#85c09e 0%, #61cf8f 100%);
-	background: linear-gradient(to bottom, #85c09e 0%, #61cf8f 100%);
+	background: -webkit-linear-gradient(to bottom, #2D6272 0%, #7FC0A9 100%);
+	background: -moz-linear-gradient(to bottom, #2D6272 0%, #7FC0A9 100%);
+	background: linear-gradient(to bottom, #2D6272 0%, #7FC0A9 100%);
 	/* Hera Note: change the service list box color in every service page */
 	transition:all 300ms ease;
 	-webkit-transition:all 300ms ease;
