@@ -5027,6 +5027,13 @@ background-color: red;
 	-webkit-filter: grayscale(0%);
 	filter: grayscale(0%);
 }
+.image-box .overlay-box .overlay-inner .content .expand-icon{
+	height: 40px;
+	width:40px;
+	background-color: blue;
+	text-align:center;
+	margin-left: 150px;
+}
 
 /*** 
 
