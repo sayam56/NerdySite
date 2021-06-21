@@ -102,3 +102,125 @@
 	margin-bottom: -20px;
 }
 
+
+/* services page */
+
+.service-block-four .inner-box .social-boxed:hover .social-inner{
+	width:60%;
+}
+
+.service-block-four .inner-box .social-boxed .social-inner{
+     margin-top: 50px;
+     margin-bottom: -100px;
+	position:relative;
+	color: #ffffff;
+	font-size: 16px;
+	border-radius: 50px;
+	border: 2px solid white;
+	display: inline-block;
+	padding:16px 22px 15px;
+	max-width:65%;
+	height:60px;
+	width: 60px;
+	overflow:hidden;
+    	background: #2b32b2 ;
+	background: -webkit-linear-gradient(to bottom right, #1488cc  0%, #2b32b2 100%);
+	background: -moz-linear-gradient(to bottom right, #1488cc  0%, #2b32b2 100%);
+	background: linear-gradient(to bottom right, #1488cc  0%, #2b32b2 100%);
+	transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+
+.service-block-four .inner-box .social-boxed .social-inner a{
+	position:relative;
+	color:#ffffff;
+	margin:-27px 25px 0px 35px;
+	font-size:17px;
+	float:left;
+}
+
+
+
+.service-block-four .inner-box .social-boxed .social-inner .share-now{
+	position:relative;
+	margin-right:8px;
+	margin-bottom:4px;
+	float:left;
+	transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+
+.customIconBox{
+	position: relative;
+	color: #ffffff;
+	z-index: 1;
+	font-size: 60px;
+	line-height: 1em;
+	padding: 10px 10px;
+	margin-bottom: 20px;
+}
+#serviceGraphics:hover .design{
+	transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-webkit-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	content: url('../images/icons/Design_on.png');
+	transition-delay: 0.5s;
+}
+
+#serviceGraphics:hover .software{
+	transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-webkit-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	content: url('../images/icons/Software_on.png');
+	transition-delay: 0.5s;
+}
+
+#serviceGraphics:hover .resume{
+	transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-webkit-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	content: url('../images/icons/Resume_on.png');
+	transition-delay: 0.5s;
+}
+
+.overlay{
+	position: absolute;
+	z-index: -1;
+	margin-left: -50px;
+	margin-top: -25px;
+}
+
+#serviceGraphics:hover .overlay{
+	transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-webkit-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	content: url('../images/icons/Overlay_on.png');
+	transition-delay: 0.5s;
+}
+
+
+.servicePageCardTitle{
+	font-size: 20px;
+}
+
+#serviceGraphics:hover .servicePageCardTitle{
+	font-size: 26px;
+}
+
+#serviceGraphics:hover .servicePageCardTitle:hover{
+	color: #07334d;
+}
