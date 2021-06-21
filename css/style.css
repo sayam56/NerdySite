@@ -4573,18 +4573,21 @@ background-color: red;
 
 .service-block-four .inner-box{
 	position:relative;
-	text-align:left;
-	border-radius:0px;
-	padding:50px 45px 60px;
+	text-align:center;
+	border-radius:10px;
+	padding:60px 40px 60px;
 	transition:all 600ms ease;
 	-moz-transition:all 600ms ease;
 	-webkit-transition:all 600ms ease;
 	-ms-transition:all 600ms ease;
 	-o-transition:all 600ms ease;
-	background: #D84DE2;
-	background: -webkit-linear-gradient(to bottom, #D84DE2 0%, #6815b2 100%);
-	background: -moz-linear-gradient(to bottom, #D84DE2 0%, #6815b2 100%);
-	background: linear-gradient(to bottom, #D84DE2 0%, #6815b2 100%);
+	background: #213150;
+	background: -webkit-linear-gradient(to top, #213150 0%, #243b55 100%);
+	background: -moz-linear-gradient(to top, #213150 0%, #243b55 100%);
+	background: linear-gradient(to top, #213150 0%, #243b55 100%);
+	-webkit-box-shadow: 0px 10px 9px -4px rgba(0,0,0,0.51);
+	-moz-box-shadow: 0px 10px 9px -4px rgba(0,0,0,0.51);
+	box-shadow: 0px 10px 9px -4px rgba(0,0,0,0.51);
 }
 
 .service-block-four .inner-box .arrow-icon{
@@ -4707,6 +4710,7 @@ background-color: red;
 }
 
 .service-block-four .inner-box .color-layer:before{
+	/* SAYAM NOTE: Services page hover */
 	position:absolute;
 	content:'';
 	left:0px;
@@ -4714,9 +4718,13 @@ background-color: red;
 	width:50%;
 	height:100%;
 	opacity:0;
-	background: #ffffff;
+	background: #85c6ad;
+	background: -webkit-linear-gradient(to top, #2d6272 0%, #85c6ad 100%);
+	background: -moz-linear-gradient(to top, #2d6272 0%, #85c6ad 100%);
+	background: linear-gradient(to top, #2d6272 0%, #85c6ad 100%);
 	transform:rotateY(90deg);
-	border-radius:0px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
 	transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
@@ -4732,9 +4740,13 @@ background-color: red;
 	width:50%;
 	height:100%;
 	opacity:0;
-	background: #ffffff;
+	background: #2d726c;
+	background: -webkit-linear-gradient(to top, #2d6272 0%, #85c6ad 100%);
+	background: -moz-linear-gradient(to top, #2d6272 0%, #85c6ad 100%);
+	background: linear-gradient(to top, #2d6272 0%, #85c6ad 100%);
 	transform:rotateY(90deg);
-	border-radius:0px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
 	transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
@@ -4803,7 +4815,6 @@ background-color: red;
 	-webkit-transition:all 600ms ease;
 	-ms-transition:all 600ms ease;
 	-o-transition:all 600ms ease;
-	background:url(../images/icons/icon-5.png);
 	background-position:left center;
 	background-repeat:no-repeat;
 }
@@ -4831,6 +4842,7 @@ background-color: red;
 
 .services-section-four .owl-carousel .owl-stage-outer .owl-item.center .service-block-four .inner-box .icon-box,
 .service-block-four .inner-box:hover .icon-box{
+	/* sayam Note: Services page card on hover icon colo */
 	color:#742bb9;
 }
 
@@ -4841,12 +4853,14 @@ background-color: red;
 
 .services-section-four .owl-carousel .owl-stage-outer .owl-item.center .service-block-four .inner-box h5 a,
 .service-block-four .inner-box:hover h5 a{
-	color:#222222;
+	/* sayam Note: services page on hover header color */
+	color:#ffffff;
 }
 
 .services-section-four .owl-carousel .owl-stage-outer .owl-item.center .service-block-four .inner-box .text,
 .service-block-four .inner-box:hover .text{
-	color:#777777;
+	/* sayam Note: services page on hover text color */
+	color:#ffffff;
 }
 
 .service-block-four .inner-box h5{
@@ -4870,12 +4884,14 @@ background-color: red;
 	color:#ffffff;
 	font-size:16px;
 	line-height:1.8em;
-	margin-top:10px;
+	margin-top:20px;
+	max-width: 290px;
+	max-height: 85px;
 	transition:all 600ms ease;
 	-moz-transition:all 600ms ease;
 	-webkit-transition:all 600ms ease;
 	-ms-transition:all 600ms ease;
-	-o-transition:all 600ms ease;
+	-o-transition:all 600ms ease;	
 }
 
 .service-block-four.style-two .inner-box{
