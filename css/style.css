@@ -5446,7 +5446,7 @@ background-color: red;
 	width: 35px;
 	font-size: 20px;
 	line-height: 35px;
-	color: #6b18b4;
+	color: #379373;
 	text-align: center;
 	transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
@@ -5456,7 +5456,7 @@ background-color: red;
 }
 
 .accordion-box .block .acc-btn.active .icon{
-	color: #dd4ee5 !important;
+	color: #75BFA5 !important;
 	transform:rotate(90deg);
 }
 
