@@ -224,3 +224,7 @@
 #serviceGraphics:hover .servicePageCardTitle:hover{
 	color: #07334d;
 }
+
+.customBoxControl{
+	display: none;
+}
