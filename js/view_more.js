@@ -10,7 +10,7 @@ $(function () {
 
     if(loadbtnName.innerHTML.localeCompare("View Less") == 0){
 
-      for(var i=1 ; i<=7 ; i++){
+      for(var i=1 ; i<=12 ; i++){
         var element;
         element = document.getElementById("hiddenBox"+i);
         $(element).fadeOut("slow");
@@ -21,7 +21,7 @@ $(function () {
     }
     else if(loadbtnName.innerHTML.localeCompare("View More") == 0){
 
-      for(var i=1 ; i<=7 ; i++){
+      for(var i=1 ; i<=12 ; i++){
         var element;
         element = document.getElementById("hiddenBox"+i);
         element.classList.add(...classList);
