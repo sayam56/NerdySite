@@ -1,8 +1,9 @@
 <?php
+ob_start();
  require "dbconnect.php";
 
 
- if(isset($_POST['search-field'])) $searchText=$_POST['search-field'];
+ $searchText = isset( $_POST['search-field'] ) ? preg_replace( "/[^\s\S\.\-\_\@a-zA-Z0-9]/", "", $_POST['search-field'] ) : "";
 
  if(empty($searchText)){
       echo "<script> console.log('searchText empty'); </script>";
