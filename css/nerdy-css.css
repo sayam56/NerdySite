@@ -229,6 +229,18 @@
 	display: none;
 }
 
+/* maintenance */
+.maintenanceTextHeader{
+	color: white;
+	font-size: 42px;
+	margin: none;
+}
+
+.maintenanceTextDesc{
+	color: white;
+	font-size: 24px;
+	margin: none;
+}
 
 
 /* Change Autocomplete styles in Chrome*/
