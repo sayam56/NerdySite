@@ -4715,7 +4715,7 @@ background-color: red;
 	content:'';
 	left:0px;
 	top:0px;
-	width:50%;
+	width:51%;
 	height:100%;
 	opacity:0;
 	background: #85c6ad;
@@ -4855,6 +4855,7 @@ background-color: red;
 .service-block-four .inner-box:hover h5 a{
 	/* sayam Note: services page on hover header color */
 	color:#ffffff;
+	text-decoration: underline;
 }
 
 .services-section-four .owl-carousel .owl-stage-outer .owl-item.center .service-block-four .inner-box .text,
