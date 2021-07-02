@@ -242,6 +242,10 @@
 	margin: none;
 }
 
+.whyChooseUsHeaderColor{
+	color: white;
+}
+
 
 /* Change Autocomplete styles in Chrome*/
 /* input:-webkit-autofill,
