@@ -6505,7 +6505,7 @@ background-color: red;
 .service-block-five .inner-box:hover .serviceCardTitle{
 	/* sayam note: services card on hover title size */
 	font-size: 24px;
-
+	text-decoration: underline;
 }
 
 .service-block-five .inner-box:hover .serviceCardTitle:hover{
