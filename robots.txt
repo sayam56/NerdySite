@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /dbconnect.php
+Disallow: /searchResult.php
+Disallow: /sendemail.php
+Disallow: /sendQuestion.php
+Disallow: /account.html
+Disallow: /maintenance.html
+Disallow: /README.md
+Disallow: /pkg
