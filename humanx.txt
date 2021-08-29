@@ -1,0 +1,50 @@
+
+                            
+/* TEAM */                          
+CEO and Head Of Development: Ali Iktider Sayam                       
+Site: https://aisayam.com/                        
+Email: ali.sayam@nerdevolution.tech                         
+Location: Dhaka, Bangladesh.
+
+Principal Software Engineer: Mohammad Ali Hera                                        
+Email: mohammad.ali@nerdevolution.tech                      
+Location: Dhaka, Bangladesh.
+
+Chief Graphics Designer: Fatema B. Iqbal    
+Behance: https://www.behance.net/iqbalfatema                                  
+Email: fatema.iqbal@nerdevolution.tech                   
+Location: Dhaka, Bangladesh.
+
+UI/UX Designer: Rokib Hasan    
+Behance: https://www.behance.net/rokib_hasan                               
+Email: rokib.hasan@nerdevolution.tech                
+Location: Rajshahi, Bangladesh.
+
+Front-End Developer: Nafisa Shameem Raha                                 
+Email: nafisa.raha@nerdevolution.tech                  
+Location: Rajshahi, Bangladesh.
+
+Chief Content Writer: Ali Intisar Samin                                    
+Email: ali.intisar@nerdevolution.tech                 
+Location: Rajshahi, Bangladesh.
+                         
+                 
+
+						
+
+							
+/* THANKS */
+
+							
+Name: https://nerdevolution.tech/
+
+						
+
+                            
+/* SITE */    
+
+
+Last update: 2021/08/29                          
+Standards: HTML5, CSS3, JS, PhP Etc.               
+Components: Ajax, jQuery Etc.                        
+Software: VS Code, Github.
