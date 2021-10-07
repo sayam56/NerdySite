@@ -1200,7 +1200,7 @@ img{
 	top:4px;
 	width:43px;
 	height:15px;
-	background:url(../images/icons/title-icon.png) no-repeat;
+	background:url(../images/icons/title-icon.webp) no-repeat;
 }
 
 .sec-title h2{
@@ -1241,7 +1241,7 @@ img{
 	top:4px;
 	width:43px;
 	height:15px;
-	background:url(../images/icons/title-icon.png) no-repeat;
+	background:url(../images/icons/title-icon.webp) no-repeat;
 }
 
 
@@ -1375,7 +1375,7 @@ img{
 	-ms-appearance:none;
 	-moz-appearance:none;
 	-o-appearance:none;
-	background:#ffffff url(../images/icons/icon-select.png) right center no-repeat;
+	background:#ffffff url(../images/icons/icon-select.webp) right center no-repeat;
 	cursor:pointer;
 }
 
@@ -2670,7 +2670,7 @@ img{
 	-webkit-transition:all 600ms ease;
 	-ms-transition:all 600ms ease;
 	-o-transition:all 600ms ease;
-	background:url(../images/icons/icon-5.png);
+	background:url(../images/icons/icon-5.webp);
 	background-position:left center;
 	background-repeat:no-repeat;
 }
@@ -2747,7 +2747,7 @@ img{
 .service-block-two.style-two .inner-box .icon-box{
 	padding:16px 10px;
 	font-size:50px;
-	background:url(../images/icons/icon-18.png) no-repeat;
+	background:url(../images/icons/icon-18.webp) no-repeat;
 	background-position:center center;
 }
 
@@ -3172,7 +3172,7 @@ img{
 	height:161px;
 	z-index:-1;
 	margin-left:-70px;
-	background:url(../images/icons/testimonial-pattern.png) no-repeat;
+	background:url(../images/icons/testimonial-pattern.webp) no-repeat;
 }
 
 .testimonial-block .inner-box .author-image-outer{
@@ -3939,7 +3939,7 @@ img{
 	line-height:250px;
 	text-align:center;
 	display:inline-block;
-	background:url(../images/icons/play.png) center center no-repeat;
+	background:url(../images/icons/play.webp) center center no-repeat;
 }
 
 .banner-section-two .image-column .image .play-box .ripple,
@@ -4282,7 +4282,7 @@ background-color: red;
 	color:#ff9d12;
 	font-size:54px;
 	line-height:1em;
-	background:url(../images/icons/shape-1.png) left center no-repeat;
+	background:url(../images/icons/shape-1.webp) left center no-repeat;
 	transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
@@ -4292,17 +4292,17 @@ background-color: red;
 
 .service-block-three:nth-child(2) .inner-box .icon-box{
 	color:#d84ce3;
-	background:url(../images/icons/shape-2.png) left center no-repeat;
+	background:url(../images/icons/shape-2.webp) left center no-repeat;
 }
 
 .service-block-three:nth-child(3) .inner-box .icon-box{
 	color:#0028a3;
-	background:url(../images/icons/shape-3.png) left center no-repeat;
+	background:url(../images/icons/shape-3.webp) left center no-repeat;
 }
 
 .service-block-three:nth-child(4) .inner-box .icon-box{
 	color:#bb0b15;
-	background:url(../images/icons/shape-4.png) left center no-repeat;
+	background:url(../images/icons/shape-4.webp) left center no-repeat;
 }
 
 .service-block-three .inner-box .icon-box .icon{
@@ -4397,7 +4397,7 @@ background-color: red;
 	top:0px;
 	width:150%;
 	height:100%;
-	/* background:url(../images/background/pattern-7.png) right top no-repeat; */
+	/* background:url(../images/background/pattern-7.webp) right top no-repeat; */
 	/* border: 1px solid red; */
 }
 
@@ -5195,7 +5195,7 @@ background-color: red;
 	border-radius:0px;
 	font-weight:700;
 	display:inline-block;
-	background-image: url('../images/Service/project/expand.png');
+	background-image: url('../images/Service/project/expand.webp');
 	background-size: contain;
 	background-color:#0028a2;
 	-webkit-transition:all 300ms ease;
@@ -5208,7 +5208,7 @@ background-color: red;
 .gallery-block .inner-box .image-box .overlay-box .icon:hover{
 	background-color:#fe4c1c;
 	color:#ffffff;
-	background-image: url('../images/Service/project/expand.png');
+	background-image: url('../images/Service/project/expand.webp');
 	background-size: contain;
 }
 
@@ -6795,7 +6795,7 @@ background-color: red;
 	text-align:center;
 	padding:25px 40px;
 	display:inline-block;
-	background:url(../images/background/pattern-13.png) no-repeat;
+	background:url(../images/background/pattern-13.webp) no-repeat;
 	background-position:center center;
 }
 
@@ -6846,7 +6846,7 @@ background-color: red;
 	top:95px;
 	width:30px;
 	height:30px;
-	background:url(../images/icons/step-arrow-one.png) no-repeat;
+	background:url(../images/icons/step-arrow-one.webp) no-repeat;
 }
 
 .steps-section .step-block:nth-child(2) .inner-box:before{
@@ -6856,7 +6856,7 @@ background-color: red;
 	top:95px;
 	width:30px;
 	height:30px;
-	background:url(../images/icons/step-arrow-two.png) no-repeat;
+	background:url(../images/icons/step-arrow-two.webp) no-repeat;
 }
 
 .steps-section .step-block:nth-child(3) .inner-box:before{
@@ -6866,7 +6866,7 @@ background-color: red;
 	top:95px;
 	width:30px;
 	height:30px;
-	background:url(../images/icons/step-arrow-three.png) no-repeat;
+	background:url(../images/icons/step-arrow-three.webp) no-repeat;
 }
 
 .step-block{
@@ -6895,19 +6895,19 @@ background-color: red;
 	top:0px;
 	right:0px;
 	bottom:0px;
-	background:url(../images/background/step-1.png) no-repeat;
+	background:url(../images/background/step-1.webp) no-repeat;
 }
 
 .step-block:nth-child(2) .inner-box .icon-box:before{
-	background:url(../images/background/step-2.png) no-repeat;
+	background:url(../images/background/step-2.webp) no-repeat;
 }
 
 .step-block:nth-child(3) .inner-box .icon-box:before{
-	background:url(../images/background/step-3.png) no-repeat;
+	background:url(../images/background/step-3.webp) no-repeat;
 }
 
 .step-block:nth-child(4) .inner-box .icon-box:before{
-	background:url(../images/background/step-4.png) no-repeat;
+	background:url(../images/background/step-4.webp) no-repeat;
 }
 
 .step-block .inner-box .icon-box .number{
@@ -8911,7 +8911,7 @@ background-color: red;
 	top:10px;
 	height:15px;
 	width:43px;
-	background:url(../images/icons/title-icon.png) no-repeat;
+	background:url(../images/icons/title-icon.webp) no-repeat;
 }
 
 .blog-cat{
@@ -10465,7 +10465,7 @@ background-color: red;
 	-webkit-appearance:none;
 	-ms-appearance:none;
 	-o-appearance:none;
-	background:url(../images/icons/arrow-right.jpg) right center no-repeat;
+	background:url(../images/icons/arrow-right.webp) right center no-repeat;
 	color:#999999;
 	transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
@@ -11009,7 +11009,7 @@ background-color: red;
 	border-radius:0px;
 	background-position:right top;
 	background-repeat:no-repeat;
-	background-image:url(../images/icons/arrow-right.jpg);
+	background-image:url(../images/icons/arrow-right.webp);
 }
 
 .shipping-form .form-group .ui-button .ui-icon{
@@ -14038,31 +14038,31 @@ background-color: red;
 	top:0px;
 	width:64px;
 	height:61px;
-	background:url(../images/icons/business-icon-1.png) no-repeat;
+	background:url(../images/icons/business-icon-1.webp) no-repeat;
 }
 
 .business-block:nth-child(2) .inner-box .icon-box::before{
 	width:59px;
 	height:42px;
-	background:url(../images/icons/business-icon-2.png) no-repeat;
+	background:url(../images/icons/business-icon-2.webp) no-repeat;
 }
 
 .business-block:nth-child(3) .inner-box .icon-box::before{
 	width:55px;
 	height:56px;
-	background:url(../images/icons/business-icon-3.png) no-repeat;
+	background:url(../images/icons/business-icon-3.webp) no-repeat;
 }
 
 .business-block:nth-child(4) .inner-box .icon-box::before{
 	width:55px;
 	height:49px;
-	background:url(../images/icons/business-icon-4.png) no-repeat;
+	background:url(../images/icons/business-icon-4.webp) no-repeat;
 }
 
 .business-block:nth-child(5) .inner-box .icon-box::before{
 	width:49px;
 	height:49px;
-	background:url(../images/icons/business-icon-5.png) no-repeat;
+	background:url(../images/icons/business-icon-5.webp) no-repeat;
 }
 
 .business-block .inner-box h4{
