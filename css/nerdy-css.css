@@ -171,7 +171,7 @@
 	-webkit-transition: all 500ms ease;
 	-ms-transition: all 500ms ease;
 	-o-transition: all 500ms ease;
-	content: url('../images/icons/Design_on.png');
+	content: url('../images/icons/Design_on.webp');
 	transition-delay: 0.5s;
 }
 
@@ -181,7 +181,7 @@
 	-webkit-transition: all 500ms ease;
 	-ms-transition: all 500ms ease;
 	-o-transition: all 500ms ease;
-	content: url('../images/icons/Software_on.png');
+	content: url('../images/icons/Software_on.webp');
 	transition-delay: 0.5s;
 }
 
@@ -191,7 +191,7 @@
 	-webkit-transition: all 500ms ease;
 	-ms-transition: all 500ms ease;
 	-o-transition: all 500ms ease;
-	content: url('../images/icons/Resume_on.png');
+	content: url('../images/icons/Resume_on.webp');
 	transition-delay: 0.5s;
 }
 
@@ -208,7 +208,7 @@
 	-webkit-transition: all 500ms ease;
 	-ms-transition: all 500ms ease;
 	-o-transition: all 500ms ease;
-	content: url('../images/icons/Overlay_on.png');
+	content: url('../images/icons/Overlay_on.webp');
 	transition-delay: 0.5s;
 }
 
