@@ -3605,7 +3605,7 @@ img{
 
 .price-block{
 	position:relative;
-	margin-bottom:30px;
+	margin-right:30px;
 	transition:all 900ms ease;
 	-moz-transition:all 900ms ease;
 	-webkit-transition:all 900ms ease;
@@ -3706,6 +3706,9 @@ img{
 .price-block.active .inner-box .price{
 	color:#ffffff;
 }
+
+
+
 
 /*** 
 
