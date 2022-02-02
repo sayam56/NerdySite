@@ -8568,7 +8568,7 @@ img {
 
 .broucher-widget .widget-content h3 {
   position: relative;
-  color: #111111;
+  color: white;
   font-weight: 600;
   line-height: 1.3em;
   margin-bottom: 30px;
@@ -8584,24 +8584,35 @@ img {
 
 .broucher-widget .widget-content .text {
   position: relative;
-  color: #777777;
-  font-size: 16px;
+  color: white;
+  font-size: 20px;
   line-height: 1.9em;
   margin-bottom: 20px;
+  font-weight: 10px;
 }
 
 .broucher-widget .widget-content .download {
   position: relative;
-  color: #222222;
-  font-size: 16px;
-  font-weight: 600;
+  color: white;
+  
+  font-size: 20px;
+  
   display: inline-block;
-  border-bottom: 1px solid #222222;
+  text-align: center;
+  padding: 20px 0;
   transition: all 300ms ease;
   -webkit-transition: all 300ms ease;
   -ms-transition: all 300ms ease;
   -o-transition: all 300ms ease;
   -moz-transition: all 300ms ease;
+ 
+  width: 250px;
+  background-color:blue;
+  text-decoration: none;
+  justify-self: center;
+  justify-content: center;
+  border-radius: 10px;
+  
 }
 
 .broucher-widget .widget-content .download:hover {
