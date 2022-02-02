@@ -57,7 +57,7 @@
 }
 
 .colors-list .active::after{
-    background: url(../images/icons/tick.png) center center no-repeat !important;
+    background: url(../images/icons/tick.webp) center center no-repeat !important;
     background-repeat: no-repeat;
     content: '';
     position: absolute;
