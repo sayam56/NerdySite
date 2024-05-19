@@ -14,10 +14,10 @@ jobs:
     - name: 🚚 Checking out latest code
       uses: actions/checkout@v4
 
-    - name: 📂 Deploy to FTP
-      run: |
-        curl --ftp-create-dirs -T "*" -u ${{ secrets.FTP_USER }}:${{ secrets.FTP_PASS }} ftp://${{ secrets.FTP_SERVER }}/home/aisayamc/nerdevolution.tech/
-      env:
-        FTP_USER: ${{ secrets.FTP_USER }}
-        FTP_PASS: ${{ secrets.FTP_PASS}}
-        FTP_SERVER: ${{ secrets.FTP_SERVER }}
+    - name: 📂 Deploy via FTP
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      with:
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USER }}
+        password: ${{ secrets.FTP_PASS }}
+        server-dir: ${{ secrets.FTP_SERVER_DIR }}
